@@ -26,3 +26,4 @@ for i in range(N):
             stack.append(temp)
         else:
             print(-1)
+

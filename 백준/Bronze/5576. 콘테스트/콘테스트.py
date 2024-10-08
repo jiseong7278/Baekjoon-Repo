@@ -11,6 +11,6 @@ for _ in range(2):
 
     arr.sort()
 
-    answer.append(arr[-1] + arr[-2] + arr[-3])
+    answer.append(sum(arr[7:]))
 
 print(answer[0], answer[1])
